@@ -1,2 +1,2 @@
 #!/bin/sh
-awk '{$1=$1;print}'
+awk '{$1 = $1; print $0}'

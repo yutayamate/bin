@@ -1,1 +1,0 @@
-uuidgen | tr '[:upper:]' '[:lower:]'
