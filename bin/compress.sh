@@ -1,4 +1,2 @@
 #!/bin/sh
-DIR=$1
-BASENAME=`basename $DIR`
-tar cvzf $BASENAME.tar.gz $DIR
+tar cvzf $(basename $1).tar.gz $1
