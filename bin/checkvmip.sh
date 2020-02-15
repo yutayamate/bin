@@ -1,4 +1,4 @@
 #!/bin/sh
-for vmxpath in "$(vmrun list | grep .vmx)"; do
-    vmrun getGuestIPAddress "${vmxpath}"
+vmrun list | grep .vmx | while read line; do
+  vmrun getGuestIPAddress "$line"
 done
