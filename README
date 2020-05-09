@@ -5,7 +5,7 @@ Collection of general-purpose tiny scripts
 
 # Usage
 
-Create symlinks for each scripts to your $PATH or install plugin manager like `zplug` and add following line in your shell configutation file.
+Create symbolic links for each scripts on your $PATH or install plugin manager like `zplug` and add following line to your shell configutation file.
 
 ```
 zplug "yutayamate/bin", as:command, use:"bin/*"
