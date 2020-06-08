@@ -1,2 +1,5 @@
 #!/bin/sh
-nmap -sS -sV -A -sC $1 -oA $(echo $1 | sed -e 's/\//_/g') -v
+OUTPUT=$(echo $1 | tr '/' '_')
+nmap -sS -sU -T4 -A -sC -oA $OUTPUT -v $1
+curl -O https://raw.githubusercontent.com/honze-net/nmap-bootstrap-xsl/master/nmap-bootstrap.xsl
+xsltproc -o $OUTPUT.html nmap-bootstrap.xsl $OUTPUT.xml
