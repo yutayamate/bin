@@ -1,9 +1,10 @@
 #!/bin/sh
 # VMware Tools for a Kali Guest
-# https://www.kali.org/docs/virtualization/install-vmware-tools-kali-guest/
+# Restarting OVT
+# https://www.kali.org/docs/virtualization/install-vmware-guest-tools/
 systemctl stop run-vmblock\\x2dfuse.mount
-sudo killall -q -w vmtoolsd
+killall -q -w vmtoolsd
 systemctl start run-vmblock\\x2dfuse.mount
 systemctl enable run-vmblock\\x2dfuse.mount
-sudo vmware-user-suid-wrapper vmtoolsd -n vmusr 2>/dev/null
-sudo vmtoolsd -b /var/run/vmroot 2>/dev/null
+vmware-user-suid-wrapper vmtoolsd -n vmusr 2>/dev/null
+vmtoolsd -b /var/run/vmroot 2>/dev/null

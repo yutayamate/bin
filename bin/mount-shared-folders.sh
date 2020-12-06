@@ -1,6 +1,7 @@
 #!/bin/sh
 # VMware Tools for a Kali Guest
-# https://www.kali.org/docs/virtualization/install-vmware-tools-kali-guest/
+# Adding Support for Shared Folders When Using OVT
+# https://www.kali.org/docs/virtualization/install-vmware-guest-tools/
 vmware-hgfsclient | while read folder; do
   vmwpath="/mnt/hgfs/${folder}"
   echo "[i] Mounting ${folder}   (${vmwpath})"
