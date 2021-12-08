@@ -1,5 +1,6 @@
 # bin
 
+![example workflow](https://github.com/yutayamate/bin/actions/workflows/main.yml/badge.svg)
 
 Collection of general-purpose tiny scripts
 
