@@ -1,6 +1,6 @@
 # bin
 
-![example workflow](https://github.com/yutayamate/bin/actions/workflows/main.yml/badge.svg)
+[![workflows/main.yml](https://github.com/yutayamate/bin/actions/workflows/main.yml/badge.svg)](https://github.com/yutayamate/bin/actions/workflows/main.yml)
 
 Collection of general-purpose tiny scripts
 
