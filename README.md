@@ -14,7 +14,7 @@ zplug "yutayamate/bin", as:command, use:"bin/*"
 
 ## List of Scripts
 
-| Name | Description | 
+| Name | Description |
 | - | - |
 | [checkip.sh](bin/checkip.sh) | TBU |
 | [checkvmip.sh](bin/checkvmip.sh) | TBU |
@@ -43,5 +43,6 @@ zplug "yutayamate/bin", as:command, use:"bin/*"
 | [upper.sh](bin/upper.sh) | TBU |
 | [urldecode.sh](bin/urldecode.sh) | TBU |
 | [urlencode.sh](bin/urlencode.sh) | TBU |
+| [userbin.sh](bin/userbin.sh) | TBU |
 | [wttrin.sh](bin/wttrin.sh) | TBU |
 | [zip.sh](bin/zip.sh) | TBU |
