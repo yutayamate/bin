@@ -43,6 +43,6 @@ zplug "yutayamate/bin", as:command, use:"bin/*"
 | [upper.sh](bin/upper.sh) | TBU |
 | [urldecode.sh](bin/urldecode.sh) | TBU |
 | [urlencode.sh](bin/urlencode.sh) | TBU |
-| [userbin.sh](bin/userbin.sh) | TBU |
+| [listbin.sh](bin/listbin.sh) | TBU |
 | [wttrin.sh](bin/wttrin.sh) | TBU |
 | [zip.sh](bin/zip.sh) | TBU |
