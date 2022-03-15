@@ -44,6 +44,7 @@ zplug "yutayamate/bin", as:command, use:"bin/*"
 | [urldecode.sh](bin/urldecode.sh) | TBU |
 | [urlencode.sh](bin/urlencode.sh) | TBU |
 | [vmrun.sh](bin/vmrun.sh) | TBU |
+| [vmsuspend.sh](bin/vmsuspend.sh) | TBU |
 | [listbin.sh](bin/listbin.sh) | TBU |
 | [wttrin.sh](bin/wttrin.sh) | TBU |
 | [zip.sh](bin/zip.sh) | TBU |
