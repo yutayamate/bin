@@ -1,2 +1,2 @@
 #!/bin/sh
-vmrun list | grep .vmx | fzf -m --prompt "Select virtual machines to suspend > ") | xargs vmrun -T fusion suspend
+vmrun list | sed 1d | fzf -m --prompt "Select virtual machines to suspend > ") | xargs vmrun -T fusion suspend

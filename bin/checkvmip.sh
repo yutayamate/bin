@@ -1,4 +1,4 @@
 #!/bin/sh
-vmrun list | grep .vmx | while read line; do
+vmrun list | sed 1d | while read line; do
   vmrun getGuestIPAddress "$line"
 done
