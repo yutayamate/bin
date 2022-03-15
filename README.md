@@ -26,7 +26,7 @@ zplug "yutayamate/bin", as:command, use:"bin/*"
 | [ipinfo.sh](bin/ipinfo.sh) | TBU |
 | [jqrecurse.sh](bin/jqrecurse.sh) | TBU |
 | [jqtsv.sh](bin/jqtsv.sh) | TBU |
-| [killopenvpn.sh](bin/killopenvpn.sh) | TBU |
+| [kill.sh](bin/kill.sh) | TBU |
 | [lower.sh](bin/lower.sh) | TBU |
 | [macvendors.sh](bin/macvendors.sh) | TBU |
 | [mkpasswd.sh](bin/mkpasswd.sh) | TBU |
@@ -37,6 +37,7 @@ zplug "yutayamate/bin", as:command, use:"bin/*"
 | [resetlaunchpad.sh](bin/resetlaunchpad.sh) | TBU |
 | [resignjwt.sh](bin/resignjwt.sh) | TBU |
 | [rot13.sh](bin/rot13.sh) | TBU |
+| [searchsploit.sh](bin/searchsploit.sh) | TBU |
 | [trim.sh](bin/trim.sh) | TBU |
 | [unsignjwt.sh](bin/unsignjwt.sh) | TBU |
 | [updatebrew.sh](bin/updatebrew.sh) | TBU |
