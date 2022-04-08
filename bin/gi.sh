@@ -1,2 +1,2 @@
 #!/bin/sh
-curl -sLw "\n" https://www.gitignore.io/api/$@
+curl -sLw "\n" "https://www.gitignore.io/api/$*"

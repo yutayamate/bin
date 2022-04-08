@@ -1,2 +1,2 @@
 #!/bin/sh
-curl -sLw "\n" https://ipinfo.io/$@
+curl -sLw "\n" "https://ipinfo.io/$*"
