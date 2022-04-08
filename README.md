@@ -20,32 +20,32 @@ zplug "yutayamate/bin", as:command, use:"bin/*"
 | [checkvmip.sh](bin/checkvmip.sh) | Check private IP address of specified virtual machine(s) |
 | [compress.sh](bin/compress.sh) | Compress specified directory as a TAR+GZ archive |
 | [decodejwt.sh](bin/decodejwt.sh) | Decode JWT and print its header and payload |
-| [findsecret.sh](bin/findsecret.sh) | TBU |
+| [findsecret.sh](bin/findsecret.sh) | Search hardcoded secrets from specified directory |
 | [gi.sh](bin/gi.sh) | Get `.gitignore` template with [gitignore.io](https://www.gitignore.io) |
-| [grepurl.sh](bin/grepurl.sh) | TBU |
+| [grepurl.sh](bin/grepurl.sh) | Search and extract URL strings |
 | [ipinfo.sh](bin/ipinfo.sh) | Get information about specified public IP address with [IPinfo.io](https://ipinfo.io) |
-| [jqrecurse.sh](bin/jqrecurse.sh) | TBU |
-| [jqtsv.sh](bin/jqtsv.sh) | TBU |
+| [jqrecurse.sh](bin/jqrecurse.sh) | Flatten nested JSON strings |
+| [jqtsv.sh](bin/jqtsv.sh) | Convert JSON strings with tab-separated values |
 | [kill.sh](bin/kill.sh) | Terminate specified process(es) |
-| [lower.sh](bin/lower.sh) | TBU |
+| [lower.sh](bin/lower.sh) | Convert strings with lowercase letters |
 | [macvendors.sh](bin/macvendors.sh) | Get information about specified MAC address with [MACVendors.com](https://macvendors.com) |
 | [mkpasswd.sh](bin/mkpasswd.sh) | Generate random password |
-| [nmap.sh](bin/nmap.sh) | TBU |
+| [nmap.sh](bin/nmap.sh) | Run `nmap` with pre-configured options |
 | [qrencode.sh](bin/qrencode.sh) | Generate QR code with [qrenco.de](https://qrenco.de) |
 | [resetdesktoppicture.sh](bin/resetdesktoppicture.sh) | Reset desktop picture settings on macOS |
 | [resetdock.sh](bin/resetdock.sh) | Reset Dock settings on macOS |
 | [resetlaunchpad.sh](bin/resetlaunchpad.sh) | Reset Launchpad settings on macOS |
 | [resignjwt.sh](bin/resignjwt.sh) | Resign specified JWT with fixed key `THIS_IS_SECRET` |
-| [rot13.sh](bin/rot13.sh) | TBU |
+| [rot13.sh](bin/rot13.sh) | Encode strings with ROT13 |
 | [searchsploit.sh](bin/searchsploit.sh) | Interactive `searchsploit` |
-| [trim.sh](bin/trim.sh) | TBU |
+| [trim.sh](bin/trim.sh) | Remove leading and trailing spaces from strings |
 | [unsignjwt.sh](bin/unsignjwt.sh) | Unsign specified JWT |
 | [updatebrew.sh](bin/updatebrew.sh) | Run `brew update`, `brew upgrade`, `brew cleanup` |
-| [upper.sh](bin/upper.sh) | TBU |
-| [urldecode.sh](bin/urldecode.sh) | TBU |
-| [urlencode.sh](bin/urlencode.sh) | TBU |
+| [upper.sh](bin/upper.sh) | Convert strings with uppercase letters |
+| [urldecode.sh](bin/urldecode.sh) | Encode strings with URL encoding |
+| [urlencode.sh](bin/urlencode.sh) | Decode URL encoded strings |
 | [vmrun.sh](bin/vmrun.sh) | Start specified virtual machine(s) |
-| [vmsuspend.sh](bin/vmsuspend.sh) | TBU |
-| [listbin.sh](bin/listbin.sh) | TBU |
+| [vmsuspend.sh](bin/vmsuspend.sh) | Suspend specified virtual machine(s) |
+| [listbin.sh](bin/listbin.sh) | Print list of commands located under `$HOME` |
 | [wttrin.sh](bin/wttrin.sh) | Get whether information with [wttr.in](https://wttr.in) |
 | [zip.sh](bin/zip.sh) | Compress specified directory as a ZIP archive |
