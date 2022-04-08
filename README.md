@@ -17,11 +17,11 @@ zplug "yutayamate/bin", as:command, use:"bin/*"
 | Name | Description |
 | - | - |
 | [checkip.sh](bin/checkip.sh) | Check public IP address with [checkip.amazonaws.com](https://checkip.amazonaws.com) |
-| [checkvmip.sh](bin/checkvmip.sh) | Check private IP address of virtual machine(s) |
-| [compress.sh](bin/compress.sh) | TBU |
+| [checkvmip.sh](bin/checkvmip.sh) | Check private IP address of specified virtual machine(s) |
+| [compress.sh](bin/compress.sh) | Compress specified directory as a TAR+GZ archive |
 | [decodejwt.sh](bin/decodejwt.sh) | Decode JWT and print its header and payload |
 | [findsecret.sh](bin/findsecret.sh) | TBU |
-| [gi.sh](bin/gi.sh) | TBU |
+| [gi.sh](bin/gi.sh) | Get `.gitignore` template with [gitignore.io](https://www.gitignore.io) |
 | [grepurl.sh](bin/grepurl.sh) | TBU |
 | [ipinfo.sh](bin/ipinfo.sh) | Get information about specified public IP address with [IPinfo.io](https://ipinfo.io) |
 | [jqrecurse.sh](bin/jqrecurse.sh) | TBU |
@@ -39,8 +39,8 @@ zplug "yutayamate/bin", as:command, use:"bin/*"
 | [rot13.sh](bin/rot13.sh) | TBU |
 | [searchsploit.sh](bin/searchsploit.sh) | Interactive `searchsploit` |
 | [trim.sh](bin/trim.sh) | TBU |
-| [unsignjwt.sh](bin/unsignjwt.sh) | TBU |
-| [updatebrew.sh](bin/updatebrew.sh) | TBU |
+| [unsignjwt.sh](bin/unsignjwt.sh) | Unsign specified JWT |
+| [updatebrew.sh](bin/updatebrew.sh) | Run `brew update`, `brew upgrade`, `brew cleanup` |
 | [upper.sh](bin/upper.sh) | TBU |
 | [urldecode.sh](bin/urldecode.sh) | TBU |
 | [urlencode.sh](bin/urlencode.sh) | TBU |
@@ -48,4 +48,4 @@ zplug "yutayamate/bin", as:command, use:"bin/*"
 | [vmsuspend.sh](bin/vmsuspend.sh) | TBU |
 | [listbin.sh](bin/listbin.sh) | TBU |
 | [wttrin.sh](bin/wttrin.sh) | Get whether information with [wttr.in](https://wttr.in) |
-| [zip.sh](bin/zip.sh) | TBU |
+| [zip.sh](bin/zip.sh) | Compress specified directory as a ZIP archive |
