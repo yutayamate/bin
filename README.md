@@ -17,7 +17,7 @@ zplug "yutayamate/bin", as:command, use:"bin/*"
 ## List of Scripts
 
 | Name | Description |
-| - | - |
+| :- | :- |
 | [checkip.sh](bin/checkip.sh) | Check public IP address with [checkip.amazonaws.com](https://checkip.amazonaws.com) |
 | [checkvmip.sh](bin/checkvmip.sh) | Check private IP address of specified virtual machine(s) |
 | [compress.sh](bin/compress.sh) | Compress specified directory as a TAR+GZ archive |
