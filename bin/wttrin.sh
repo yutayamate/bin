@@ -1,2 +1,2 @@
 #!/bin/sh
-curl -s https://wttr.in?lang=${LANG:0:2}
+curl -s https://wttr.in/${1:-}?lang=${LANG:0:2}
