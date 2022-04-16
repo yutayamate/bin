@@ -8,7 +8,7 @@ Collection of general-purpose tiny scripts
 
 ## Usage
 
-Create symbolic link for each script on your `$PATH`, or install `zplug` and add following line to your shell configutation (e.g. `.zshrc`) file.
+Create symbolic link for each script on your `$PATH` or install [`zplug`](https://github.com/zplug/zplug) and add following line to your shell configutation file (e.g. `.zshrc`).
 
 ```
 zplug "yutayamate/bin", as:command, use:"bin/*"
