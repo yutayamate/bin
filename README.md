@@ -3,14 +3,13 @@
 [![workflows/main.yml](https://github.com/yutayamate/bin/actions/workflows/main.yml/badge.svg)](https://github.com/yutayamate/bin/actions/workflows/main.yml)
 ![GitHub top language](https://img.shields.io/github/languages/top/yutayamate/bin)
 
-
 Collection of general-purpose tiny scripts
 
 ## Usage
 
 Create symbolic link for each script on your `$PATH` or install [`zplug`](https://github.com/zplug/zplug) and add following line to your shell configutation file (e.g. `.zshrc`).
 
-```
+```bash
 zplug "yutayamate/bin", as:command, use:"bin/*"
 ```
 
