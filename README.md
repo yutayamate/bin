@@ -31,6 +31,7 @@ zplug "yutayamate/bin", as:command, use:"bin/*"
 | [lower.sh](bin/lower.sh) | Convert strings with lowercase letters |
 | [macvendors.sh](bin/macvendors.sh) | Get information about specified MAC address with [MACVendors.com](https://macvendors.com) |
 | [mkpasswd.sh](bin/mkpasswd.sh) | Generate random password |
+| [mobsf.sh](bin/mobsf.sh) | Launch [MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF) |
 | [nmap.sh](bin/nmap.sh) | Run `nmap` with pre-configured options |
 | [qrencode.sh](bin/qrencode.sh) | Generate QR code with [qrenco.de](https://qrenco.de) |
 | [resetdesktoppicture.sh](bin/resetdesktoppicture.sh) | Reset desktop picture settings on macOS |
