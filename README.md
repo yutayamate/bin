@@ -49,5 +49,6 @@ zplug "yutayamate/bin", as:command, use:"bin/*"
 | [vmrun.sh](bin/vmrun.sh) | Start specified virtual machine(s) |
 | [vmsuspend.sh](bin/vmsuspend.sh) | Suspend specified virtual machine(s) |
 | [listbin.sh](bin/listbin.sh) | Print list of commands located under `$HOME` |
+| [xml2json.sh](bin/xml2json.sh) | Convert XML to JSON |
 | [wttrin.sh](bin/wttrin.sh) | Get whether information with [wttr.in](https://wttr.in) |
 | [zip.sh](bin/zip.sh) | Compress specified directory as a ZIP archive |
