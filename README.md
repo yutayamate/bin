@@ -23,6 +23,7 @@ zplug "yutayamate/bin", as:command, use:"bin/*"
 | [decodejwt.sh](bin/decodejwt.sh) | Decode JWT and print its header and payload |
 | [findsecret.sh](bin/findsecret.sh) | Search hardcoded secrets from specified directory |
 | [gi.sh](bin/gi.sh) | Get `.gitignore` template with [gitignore.io](https://www.gitignore.io) |
+| [grepemail.sh](bin/grepemail.sh) | Search and extract email address strings |
 | [grepurl.sh](bin/grepurl.sh) | Search and extract URL strings |
 | [ipinfo.sh](bin/ipinfo.sh) | Get information about specified public IP address with [IPinfo.io](https://ipinfo.io) |
 | [jqrecurse.sh](bin/jqrecurse.sh) | Flatten nested JSON strings |
