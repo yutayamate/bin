@@ -32,6 +32,7 @@ zplug "yutayamate/bin", as:command, use:"bin/*"
 | [lower.sh](bin/lower.sh) | Convert strings with lowercase letters |
 | [macvendors.sh](bin/macvendors.sh) | Get information about specified MAC address with [MACVendors.com](https://macvendors.com) |
 | [mkpasswd.sh](bin/mkpasswd.sh) | Generate random password |
+| [mount-shared-folders.sh](bin/mount-shared-folders.sh) | Mount virtual machine shared folders |
 | [mobsf.sh](bin/mobsf.sh) | Launch [MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF) |
 | [nmap.sh](bin/nmap.sh) | Run `nmap` with pre-configured options |
 | [qrencode.sh](bin/qrencode.sh) | Generate QR code with [qrenco.de](https://qrenco.de) |
@@ -39,6 +40,7 @@ zplug "yutayamate/bin", as:command, use:"bin/*"
 | [resetdock.sh](bin/resetdock.sh) | Reset Dock settings on macOS |
 | [resetlaunchpad.sh](bin/resetlaunchpad.sh) | Reset Launchpad settings on macOS |
 | [resignjwt.sh](bin/resignjwt.sh) | Resign specified JWT with fixed key `THIS_IS_SECRET` |
+| [restart-vm-tools.sh](bin/restart-vm-tools.sh) | Restart Open-VM-Tools |
 | [rot13.sh](bin/rot13.sh) | Encode strings with ROT13 |
 | [searchsploit.sh](bin/searchsploit.sh) | Interactive `searchsploit` |
 | [trim.sh](bin/trim.sh) | Remove leading and trailing spaces from strings |

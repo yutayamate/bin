@@ -1,7 +1,7 @@
 #!/bin/sh
-# VMware Tools for a Kali Guest
-# Restarting OVT
 # https://www.kali.org/docs/virtualization/install-vmware-guest-tools/
+# https://gitlab.com/kalilinux/packages/kali-tweaks/-/blob/kali/master/data/restart-vm-tools
+test $(id -u) -eq 0 || { echo "Please call this script with sudo" >&2; exit 1; }
 systemctl stop run-vmblock\\x2dfuse.mount
 killall -q -w vmtoolsd
 systemctl start run-vmblock\\x2dfuse.mount
