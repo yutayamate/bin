@@ -39,7 +39,7 @@ zplug "yutayamate/bin", as:command, use:"bin/*"
 | [resetdesktoppicture.sh](bin/resetdesktoppicture.sh) | Reset desktop picture settings on macOS |
 | [resetdock.sh](bin/resetdock.sh) | Reset Dock settings on macOS |
 | [resetlaunchpad.sh](bin/resetlaunchpad.sh) | Reset Launchpad settings on macOS |
-| [resignjwt.sh](bin/resignjwt.sh) | Resign specified JWT with fixed key `THIS_IS_SECRET` |
+| [resignjwt.sh](bin/resignjwt.sh) | Resign specified JWT with specified key |
 | [restart-vm-tools.sh](bin/restart-vm-tools.sh) | Restart Open-VM-Tools |
 | [rot13.sh](bin/rot13.sh) | Encode strings with ROT13 |
 | [searchsploit.sh](bin/searchsploit.sh) | Interactive `searchsploit` |
