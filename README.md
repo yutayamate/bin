@@ -43,6 +43,7 @@ zplug "yutayamate/bin", as:command, use:"bin/*"
 | [restart-vm-tools.sh](bin/restart-vm-tools.sh) | Restart Open-VM-Tools |
 | [rot13.sh](bin/rot13.sh) | Encode strings with ROT13 |
 | [searchsploit.sh](bin/searchsploit.sh) | Interactive `searchsploit` |
+| [ssh.sh](bin/ssh.sh) | Interactive command-line interface for `ssh` |
 | [trim.sh](bin/trim.sh) | Remove leading and trailing spaces from strings |
 | [unsignjwt.sh](bin/unsignjwt.sh) | Unsign specified JWT |
 | [updatebrew.sh](bin/updatebrew.sh) | Run `brew update`, `brew upgrade`, `brew cleanup` |
