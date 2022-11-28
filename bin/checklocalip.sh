@@ -1,2 +1,2 @@
 #!/bin/sh
-ifconfig | grep 'inet ' | awk '{ print $2 }' | sort | uniq
+ifconfig | grep 'inet ' | awk '{ print $2 }' | sort --version-sort | uniq
