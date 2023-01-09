@@ -20,7 +20,7 @@ zplug "yutayamate/bin", as:command, use:"bin/*"
 | [checkip.sh](bin/checkip.sh) | Check public IP address with [checkip.amazonaws.com](https://checkip.amazonaws.com) |
 | [checklocalip.sh](bin/checklocalip.sh) | Check local IP addresses |
 | [checkvmip.sh](bin/checkvmip.sh) | Check private IP address of specified virtual machine(s) |
-| [cheetsheet.sh](bin/cheetsheet.sh) | Show cheet sheet |
+| [cheatsheet.sh](bin/cheatsheet.sh) | Show cheat sheet |
 | [compress.sh](bin/compress.sh) | Compress specified directory as a TAR+GZ archive |
 | [decodejwt.sh](bin/decodejwt.sh) | Decode JWT and print its header and payload |
 | [findsecret.sh](bin/findsecret.sh) | Search hardcoded secrets from specified directory |
