@@ -3,7 +3,6 @@
 import os
 import sys
 
-
 JWT_KEY = 'THIS_IS_JWT_KEY'
 
 

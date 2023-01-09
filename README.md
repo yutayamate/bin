@@ -7,7 +7,7 @@ Collection of general-purpose tiny scripts
 
 ## Usage
 
-Create symbolic link for each script on your `$PATH` or install [`zplug`](https://github.com/zplug/zplug) and add following line to your shell configutation file (e.g. `.zshrc`).
+Add the [`bin`](bin) directory to your `$PATH` or use [`zplug`](https://github.com/zplug/zplug) and add following setting to your shell configutation file (e.g. `.zshrc`).
 
 ```bash
 zplug "yutayamate/bin", as:command, use:"bin/*"
@@ -42,13 +42,13 @@ zplug "yutayamate/bin", as:command, use:"bin/*"
 | [resetdesktoppicture.sh](bin/resetdesktoppicture.sh) | Reset desktop picture settings on macOS |
 | [resetdock.sh](bin/resetdock.sh) | Reset Dock settings on macOS |
 | [resetlaunchpad.sh](bin/resetlaunchpad.sh) | Reset Launchpad settings on macOS |
-| [resignjwt.sh](bin/resignjwt.sh) | Resign specified JWT with specified key |
+| [resignjwt.py](bin/resignjwt.py) | Resign specified JWT with specified key |
 | [restart-vm-tools.sh](bin/restart-vm-tools.sh) | Restart Open-VM-Tools |
 | [rot13.sh](bin/rot13.sh) | Encode strings with ROT13 |
 | [searchsploit.sh](bin/searchsploit.sh) | Interactive `searchsploit` |
 | [ssh.sh](bin/ssh.sh) | Interactive command-line interface for `ssh` |
 | [trim.sh](bin/trim.sh) | Remove leading and trailing spaces from strings |
-| [unsignjwt.sh](bin/unsignjwt.sh) | Unsign specified JWT |
+| [unsignjwt.py](bin/unsignjwt.py) | Unsign specified JWT |
 | [updatebrew.sh](bin/updatebrew.sh) | Run `brew update`, `brew upgrade`, `brew cleanup` |
 | [upper.sh](bin/upper.sh) | Convert strings with uppercase letters |
 | [urldecode.sh](bin/urldecode.sh) | Encode strings with URL encoding |
@@ -56,7 +56,7 @@ zplug "yutayamate/bin", as:command, use:"bin/*"
 | [vmrun.sh](bin/vmrun.sh) | Start specified virtual machine(s) |
 | [vmsuspend.sh](bin/vmsuspend.sh) | Suspend specified virtual machine(s) |
 | [listbin.sh](bin/listbin.sh) | Print list of commands located under `$HOME` |
-| [xml2json.sh](bin/xml2json.sh) | Convert XML to JSON |
-| [yaml2json.sh](bin/yaml2json.sh) | Convert YAML to JSON |
+| [xml2json.py](bin/xml2json.py) | Convert XML to JSON |
+| [yaml2json.py](bin/yaml2json.py) | Convert YAML to JSON |
 | [wttrin.sh](bin/wttrin.sh) | Get whether information with [wttr.in](https://wttr.in) |
 | [zip.sh](bin/zip.sh) | Compress specified directory as a ZIP archive |
