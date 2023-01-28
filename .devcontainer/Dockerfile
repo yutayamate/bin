@@ -11,4 +11,4 @@ LABEL dev.containers.features="common"
 # RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
 #     && apt-get -y install --no-install-recommends <your-package-list-here>
 RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
-    && apt-get -y install --no-install-recommends shellcheck python3 python3-pip python3-tox
+    && apt-get -y install --no-install-recommends shellcheck python3 python3-pip tox
