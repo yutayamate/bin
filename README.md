@@ -3,6 +3,8 @@
 [![workflows/main.yml](https://github.com/yutayamate/bin/actions/workflows/main.yml/badge.svg)](https://github.com/yutayamate/bin/actions/workflows/main.yml)
 ![GitHub top language](https://img.shields.io/github/languages/top/yutayamate/bin)
 
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&repo=221247482)
+
 Collection of general-purpose tiny scripts
 
 ## Usage
