@@ -25,6 +25,6 @@
     "remoteUser": "vscode",
 
     "containerEnv": {
-        "PATH": "${containerWorkspaceFolder}/bin:${containerEnv:PATH}"
+        "PATH": "${containerEnv:PATH}:${containerWorkspaceFolder}/bin"
     }
 }
