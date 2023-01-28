@@ -9,7 +9,7 @@ Collection of general-purpose tiny scripts
 
 ## Usage
 
-Add the [`bin`](bin) directory to your `$PATH` or use [`zplug`](https://github.com/zplug/zplug) and add following setting to your shell configutation file (e.g. `.zshrc`).
+Add the [`bin`](bin) directory to your `PATH` or use [`zplug`](https://github.com/zplug/zplug) and add following setting to your shell configutation file (e.g. `.zshrc`).
 
 ```bash
 zplug "yutayamate/bin", as:command, use:"bin/*"
