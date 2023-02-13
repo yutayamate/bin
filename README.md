@@ -19,6 +19,7 @@ zplug "yutayamate/bin", as:command, use:"bin/*"
 
 | Name | Description |
 | :- | :- |
+| [cdxgen.sh](bin/cdxgen.sh) | Generate a Cyclone DX SBOM file with [cdxgen](https://github.com/CycloneDX/cdxgen) |
 | [checkip.sh](bin/checkip.sh) | Check public IP address with [checkip.amazonaws.com](https://checkip.amazonaws.com) |
 | [checklocalip.sh](bin/checklocalip.sh) | Check local IP addresses |
 | [checkvmip.sh](bin/checkvmip.sh) | Check private IP address of specified virtual machine(s) |
