@@ -8,7 +8,10 @@ def main():
     try:
         import yaml
     except ImportError:
-        print('Error: Failed to import "yaml", try `pip3 install PyYAML`.', file=sys.stderr)
+        print(
+            'Error: Failed to import "yaml", try `pip3 install PyYAML`.',
+            file=sys.stderr,
+        )
         sys.exit(1)
 
     data = yaml.safe_load_all(sys.stdin.read())

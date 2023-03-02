@@ -10,7 +10,9 @@ def main():
     try:
         import jwt
     except ImportError:
-        print('Error: Failed to import "jwt", try `pip3 install pyjwt`.', file=sys.stderr)
+        print(
+            'Error: Failed to import "jwt", try `pip3 install pyjwt`.', file=sys.stderr
+        )
         sys.exit(1)
 
     data = jwt.decode(jwt=sys.stdin.read(), options={'verify_signature': False})

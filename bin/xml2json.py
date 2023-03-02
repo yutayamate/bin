@@ -8,7 +8,10 @@ def main():
     try:
         import xmltodict
     except ImportError:
-        print('Error: Failed to import "xmltodict", try `pip3 install xmltodict`.', file=sys.stderr)
+        print(
+            'Error: Failed to import "xmltodict", try `pip3 install xmltodict`.',
+            file=sys.stderr,
+        )
         sys.exit(1)
 
     data = xmltodict.parse(sys.stdin.read())
