@@ -27,6 +27,7 @@ zplug "yutayamate/bin", as:command, use:"bin/*"
 | [compress.sh](bin/compress.sh) | Compress specified directory as a TAR+GZ archive |
 | [decodejwt.sh](bin/decodejwt.sh) | Decode JWT and print its header and payload |
 | [findsecret.sh](bin/findsecret.sh) | Search hardcoded secrets from specified directory |
+| [findwordlist.sh](bin/findwordlist.sh) | Search Kali wordlist text files |
 | [gi.sh](bin/gi.sh) | Get `.gitignore` template with [gitignore.io](https://www.gitignore.io) |
 | [grepemail.sh](bin/grepemail.sh) | Search and extract email address strings |
 | [grepurl.sh](bin/grepurl.sh) | Search and extract URL strings |
