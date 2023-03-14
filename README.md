@@ -20,10 +20,11 @@ zplug "yutayamate/bin", as:command, use:"bin/*"
 | Name | Description |
 | :- | :- |
 | [cdxgen.sh](bin/cdxgen.sh) | Generate a Cyclone DX SBOM file with [cdxgen](https://github.com/CycloneDX/cdxgen) |
+| [cheatsheet.sh](bin/cheatsheet.sh) | Show cheat sheet |
 | [checkip.sh](bin/checkip.sh) | Check public IP address with [checkip.amazonaws.com](https://checkip.amazonaws.com) |
 | [checklocalip.sh](bin/checklocalip.sh) | Check local IP addresses |
 | [checkvmip.sh](bin/checkvmip.sh) | Check private IP address of specified virtual machine(s) |
-| [cheatsheet.sh](bin/cheatsheet.sh) | Show cheat sheet |
+| [code.sh](bin/code.sh) | Search Git projects and open it with `code` |
 | [compress.sh](bin/compress.sh) | Compress specified directory as a TAR+GZ archive |
 | [decodejwt.sh](bin/decodejwt.sh) | Decode JWT and print its header and payload |
 | [findsecret.sh](bin/findsecret.sh) | Search hardcoded secrets from specified directory |
