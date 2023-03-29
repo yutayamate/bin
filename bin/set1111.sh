@@ -6,3 +6,4 @@ command -v fzf > /dev/null 2>&1 || { echo 'Error: "fzf" is not installed.' >&2; 
 DNS_SERVERS=(1.1.1.1 1.0.0.1 2606:4700:4700::1111 2606:4700:4700::1001)
 SERVICE=$(networksetup -listallnetworkservices | grep -v "\*" | fzf -m --prompt "Select a network service to configure \"1.1.1.1\" DNS > ")
 networksetup -setdnsservers "${SERVICE}" "${DNS_SERVERS[@]}"
+networksetup -getdnsservers "${SERVICE}"
