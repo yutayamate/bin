@@ -19,6 +19,7 @@ zplug "yutayamate/bin", as:command, use:"bin/*"
 
 | Name | Description |
 | :- | :- |
+| [burpbrowser.sh](bin/burpbrowser.sh) | Launch [Burp's browser](https://portswigger.net/burp/documentation/desktop/tools/burps-browser) |
 | [cdxgen.sh](bin/cdxgen.sh) | Generate a Cyclone DX SBOM file with [cdxgen](https://github.com/CycloneDX/cdxgen) |
 | [cheatsheet.sh](bin/cheatsheet.sh) | Show cheat sheet |
 | [checkip.sh](bin/checkip.sh) | Check public IP address with [checkip.amazonaws.com](https://checkip.amazonaws.com) |
