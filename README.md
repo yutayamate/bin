@@ -19,7 +19,6 @@ zplug "yutayamate/bin", as:command, use:"bin/*"
 
 | Name | Description |
 | :- | :- |
-| [burpbrowser.sh](bin/burpbrowser.sh) | Launch [Burp's browser](https://portswigger.net/burp/documentation/desktop/tools/burps-browser) |
 | [cdxgen.sh](bin/cdxgen.sh) | Generate a Cyclone DX SBOM file with [cdxgen](https://github.com/CycloneDX/cdxgen) |
 | [cheatsheet.sh](bin/cheatsheet.sh) | Show cheat sheet |
 | [checkip.sh](bin/checkip.sh) | Check public IP address with [checkip.amazonaws.com](https://checkip.amazonaws.com) |
@@ -38,6 +37,7 @@ zplug "yutayamate/bin", as:command, use:"bin/*"
 | [jqrecurse.sh](bin/jqrecurse.sh) | Flatten nested JSON strings |
 | [jqtsv.sh](bin/jqtsv.sh) | Convert JSON strings with tab-separated values |
 | [kill.sh](bin/kill.sh) | Terminate specified process(es) |
+| [linkburpbrowser.sh](bin/linkburpbrowser.sh) | Create a symbolic link to [Burp's browser](https://portswigger.net/burp/documentation/desktop/tools/burps-browser) |
 | [lower.sh](bin/lower.sh) | Convert strings with lowercase letters |
 | [macvendors.sh](bin/macvendors.sh) | Get information about specified MAC address with [MACVendors.com](https://macvendors.com) |
 | [mkpasswd.sh](bin/mkpasswd.sh) | Generate random password |
