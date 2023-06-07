@@ -58,8 +58,9 @@ zplug "yutayamate/bin", as:command, use:"bin/*"
 | [unsignjwt.py](bin/unsignjwt.py) | Unsign specified JWT |
 | [updatebrew.sh](bin/updatebrew.sh) | Run `brew update`, `brew upgrade`, `brew cleanup` |
 | [upper.sh](bin/upper.sh) | Convert strings with uppercase letters |
-| [urldecode.sh](bin/urldecode.sh) | Encode strings with URL encoding |
-| [urlencode.sh](bin/urlencode.sh) | Decode URL encoded strings |
+| [urldecode.sh](bin/urldecode.sh) | Decode URL encoded strings |
+| [urlencode.py](bin/urlencode.py) | Encode strings with URL encoding |
+| [urlencode.sh](bin/urlencode.sh) | Encode strings with URL encoding |
 | [vmrun.sh](bin/vmrun.sh) | Start specified virtual machine(s) |
 | [vmsuspend.sh](bin/vmsuspend.sh) | Suspend specified virtual machine(s) |
 | [listbin.sh](bin/listbin.sh) | Print list of commands located under `$HOME` |
