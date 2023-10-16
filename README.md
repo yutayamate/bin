@@ -54,6 +54,7 @@ zplug "yutayamate/bin", as:command, use:"bin/*"
 | [searchsploit.sh](bin/searchsploit.sh) | Interactive `searchsploit` |
 | [set1111.sh](bin/set1111.sh) | Set [1.1.1.1](https://1.1.1.1/dns/) as primary DNS server |
 | [ssh.sh](bin/ssh.sh) | Interactive command-line interface for `ssh` |
+| [tree.sh](bin/tree.sh) | Display the structure of specified directory, like `tree` |
 | [trim.sh](bin/trim.sh) | Remove leading and trailing spaces from strings |
 | [unsignjwt.py](bin/unsignjwt.py) | Unsign specified JWT |
 | [updatebrew.sh](bin/updatebrew.sh) | Run `brew update`, `brew upgrade`, `brew cleanup` |
