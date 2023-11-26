@@ -20,7 +20,6 @@ zplug "yutayamate/bin", as:command, use:"bin/*"
 | Name | Description |
 | :- | :- |
 | [cdxgen.sh](bin/cdxgen.sh) | Generate a Cyclone DX SBOM file with [cdxgen](https://github.com/CycloneDX/cdxgen) |
-| [cheatsheet.sh](bin/cheatsheet.sh) | Show cheat sheet |
 | [checkip.sh](bin/checkip.sh) | Check public IP address with [checkip.amazonaws.com](https://checkip.amazonaws.com) |
 | [checklocalip.sh](bin/checklocalip.sh) | Check local IP addresses |
 | [checkvmip.sh](bin/checkvmip.sh) | Check private IP address of specified virtual machine(s) |
@@ -45,7 +44,6 @@ zplug "yutayamate/bin", as:command, use:"bin/*"
 | [mobsf.sh](bin/mobsf.sh) | Launch [MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF) |
 | [nmap.sh](bin/nmap.sh) | Run `nmap` with pre-configured options |
 | [qrencode.sh](bin/qrencode.sh) | Generate QR code with [qrenco.de](https://qrenco.de) |
-| [resetdesktoppicture.sh](bin/resetdesktoppicture.sh) | Reset desktop picture settings on macOS |
 | [resetdock.sh](bin/resetdock.sh) | Reset Dock settings on macOS |
 | [resetlaunchpad.sh](bin/resetlaunchpad.sh) | Reset Launchpad settings on macOS |
 | [resignjwt.py](bin/resignjwt.py) | Resign specified JWT with specified key |
