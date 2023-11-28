@@ -51,6 +51,8 @@ zplug "yutayamate/bin", as:command, use:"bin/*"
 | [rot13.sh](bin/rot13.sh) | Encode strings with ROT13 |
 | [searchsploit.sh](bin/searchsploit.sh) | Interactive `searchsploit` |
 | [set1111.sh](bin/set1111.sh) | Set [1.1.1.1](https://1.1.1.1/dns/) as primary DNS server |
+| [showcerts.sh](bin/showcerts.sh) | Check SSL certificates of specified FQDN |
+| [sonarqube.sh](bin/sonarqube.sh) | Launch [SonarQube Community Edition](https://www.sonarsource.com/open-source-editions/sonarqube-community-edition/) |
 | [ssh.sh](bin/ssh.sh) | Interactive command-line interface for `ssh` |
 | [tree.sh](bin/tree.sh) | Display the structure of specified directory, like `tree` |
 | [trim.sh](bin/trim.sh) | Remove leading and trailing spaces from strings |
