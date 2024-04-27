@@ -31,6 +31,7 @@ zplug "yutayamate/bin", as:command, use:"bin/*"
 | [gi.sh](bin/gi.sh) | Get `.gitignore` template with [gitignore.io](https://www.gitignore.io) |
 | [grepemail.sh](bin/grepemail.sh) | Search and extract email address strings |
 | [grepurl.sh](bin/grepurl.sh) | Search and extract URL strings |
+| [hexdecode.sh](bin/hexdecode.sh) | Decode HEX encoded strings |
 | [httpserver.sh](bin/httpserver.sh) | Start a web server with Python `http.server` module |
 | [ipinfo.sh](bin/ipinfo.sh) | Get information about specified public IP address with [IPinfo.io](https://ipinfo.io) |
 | [jqrecurse.sh](bin/jqrecurse.sh) | Flatten nested JSON strings |
