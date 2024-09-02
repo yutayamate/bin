@@ -23,10 +23,8 @@ zplug "yutayamate/bin", as:command, use:"bin/*"
 | [checkip.sh](bin/checkip.sh) | Check public IP address with [checkip.amazonaws.com](https://checkip.amazonaws.com) |
 | [checklocalip.sh](bin/checklocalip.sh) | Check local IP addresses |
 | [checkvmip.sh](bin/checkvmip.sh) | Check private IP address of specified virtual machine(s) |
-| [code.sh](bin/code.sh) | Search Git projects and open it with `code` |
 | [compress.sh](bin/compress.sh) | Compress specified directory as a TAR+GZ archive |
 | [decodejwt.sh](bin/decodejwt.sh) | Decode JWT and print its header and payload |
-| [findsecret.sh](bin/findsecret.sh) | Search hardcoded secrets from specified directory |
 | [findwordlist.sh](bin/findwordlist.sh) | Search Kali wordlist text files |
 | [gi.sh](bin/gi.sh) | Get `.gitignore` template with [gitignore.io](https://www.gitignore.io) |
 | [grepemail.sh](bin/grepemail.sh) | Search and extract email address strings |
@@ -37,13 +35,11 @@ zplug "yutayamate/bin", as:command, use:"bin/*"
 | [jqrecurse.sh](bin/jqrecurse.sh) | Flatten nested JSON strings |
 | [jqtsv.sh](bin/jqtsv.sh) | Convert JSON strings with tab-separated values |
 | [kill.sh](bin/kill.sh) | Terminate specified process(es) |
-| [linkburpbrowser.sh](bin/linkburpbrowser.sh) | Create a symbolic link to [Burp's browser](https://portswigger.net/burp/documentation/desktop/tools/burps-browser) |
 | [lower.sh](bin/lower.sh) | Convert strings with lowercase letters |
 | [macvendors.sh](bin/macvendors.sh) | Get information about specified MAC address with [MACVendors.com](https://macvendors.com) |
 | [mkpasswd.sh](bin/mkpasswd.sh) | Generate random password |
 | [mount-shared-folders.sh](bin/mount-shared-folders.sh) | Mount virtual machine shared folders |
 | [mobsf.sh](bin/mobsf.sh) | Launch [MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF) |
-| [nmap.sh](bin/nmap.sh) | Run `nmap` with pre-configured options |
 | [qrencode.sh](bin/qrencode.sh) | Generate QR code with [qrenco.de](https://qrenco.de) |
 | [resetdock.sh](bin/resetdock.sh) | Reset Dock settings on macOS |
 | [resetlaunchpad.sh](bin/resetlaunchpad.sh) | Reset Launchpad settings on macOS |
@@ -59,7 +55,6 @@ zplug "yutayamate/bin", as:command, use:"bin/*"
 | [tree.sh](bin/tree.sh) | Display the structure of specified directory, like `tree` |
 | [trim.sh](bin/trim.sh) | Remove leading and trailing spaces from strings |
 | [unsignjwt.py](bin/unsignjwt.py) | Unsign specified JWT |
-| [updatebrew.sh](bin/updatebrew.sh) | Run `brew update`, `brew upgrade`, `brew cleanup` |
 | [upper.sh](bin/upper.sh) | Convert strings with uppercase letters |
 | [urldecode.sh](bin/urldecode.sh) | Decode URL encoded strings |
 | [urlencode.py](bin/urlencode.py) | Encode strings with URL encoding |
