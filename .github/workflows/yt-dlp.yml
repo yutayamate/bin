@@ -1,4 +1,4 @@
-name: Build and push yt-dlp Docker image
+name: ghcr.io/yutayamate/bin/yt-dlp
 
 on:
   push:
@@ -6,6 +6,7 @@ on:
       - master
     paths:
       - containers/yt-dlp/**
+      - .github/workflows/yt-dlp.yml
   workflow_dispatch:
 
 jobs:
@@ -51,6 +52,6 @@ jobs:
       - name: Generate artifact attestation
         uses: actions/attest-build-provenance@v3
         with:
-          subject-name: ghcr.io/${{ github.repository }}
+          subject-name: ghcr.io/${{ github.repository }}/yt-dlp
           subject-digest: ${{ steps.push.outputs.digest }}
           push-to-registry: true
