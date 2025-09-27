@@ -38,7 +38,7 @@ jobs:
           images: |
             ghcr.io/${{ github.repository }}/yt-dlp
           tags: |
-            type=ref,event=branch,ref={{is_default_branch}}
+            type=ref,event=branch,ref={{ is_default_branch }}
             type=raw,value=latest,enable={{is_default_branch}}
 
       - name: Build and push Docker images
@@ -47,6 +47,7 @@ jobs:
         with:
           context: ./containers/yt-dlp
           platforms: linux/amd64,linux/arm64
+          sbom: true
           push: true
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
