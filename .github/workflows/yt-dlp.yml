@@ -3,9 +3,9 @@ name: Build and push yt-dlp Docker image
 on:
   push:
     branches:
-      - main
+      - master
     paths:
-      - 'containers/ty-dlp/**'
+      - 'containers/yt-dlp/**'
   workflow_dispatch:
 
 jobs:
