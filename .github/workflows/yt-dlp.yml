@@ -33,7 +33,7 @@ jobs:
         uses: docker/metadata-action@v5
         with:
           images: |
-            ghcr.io/${{ github.repository }}
+            ghcr.io/${{ github.repository }}/yt-dlp
 
       - name: Build and push Docker images
         id: push
