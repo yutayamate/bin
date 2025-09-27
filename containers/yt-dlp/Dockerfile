@@ -1,16 +1,18 @@
-# https://github.com/tnk4on/yt-dlp/blob/main/Containerfile.d/Containerfile.alpine-pip
-# Containerfile for tnk4on/yt-dlp:alpine-pip
-FROM python:alpine
-LABEL maintainer="Shion Tanaka / Twitter(@tnk4on)"
-RUN apk add --update --no-cache --virtual .build-deps gcc musl-dev \
-&& pip install --upgrade pip \
-&& pip install pycrypto yt-dlp \
-&& rm -rf ~/.cache/pip \
-&& apk del .build-deps \
-&& apk add ffmpeg \
-&& chmod o+w /media \
-&& adduser -D yt-dlp
+FROM python:3.13-alpine
+
+RUN apk add --update --no-cache ffmpeg
+
+RUN pip install --upgrade pip && \
+    pip install yt-dlp
+
+RUN chmod o+w /media
+
+RUN adduser -D user
+
 COPY ./yt-dlp.conf /etc/yt-dlp.conf
+
 WORKDIR /media
-USER yt-dlp
+
+USER user
+
 ENTRYPOINT ["yt-dlp"]
