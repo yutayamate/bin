@@ -38,7 +38,9 @@ jobs:
           images: |
             ghcr.io/${{ github.repository }}/yt-dlp
           flavor: |
-            latest=auto
+            latest=true
+          tags: |
+            type=raw,value=latest,enable={{is_default_branch}}
 
       - name: Build and push Docker images
         id: push
