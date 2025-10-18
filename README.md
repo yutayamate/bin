@@ -9,10 +9,13 @@ Collection of general-purpose tiny scripts
 
 ## Usage
 
-Add the [`bin`](bin) directory to your `PATH` or use [`zplug`](https://github.com/zplug/zplug) and add following setting to your shell configutation file (e.g. `.zshrc`).
+Add the [`bin`](bin) directory to your `PATH`, or use [`sheldon`](https://github.com/rossmacarthur/sheldon) and add following setting to your configutation file.
 
-```bash
-zplug "yutayamate/bin", as:command, use:"bin/*"
+```toml
+[plugins.bin]
+github = "yutayamate/bin"
+dir = "bin"
+apply = ["path"]
 ```
 
 ## List of Scripts
@@ -64,5 +67,6 @@ zplug "yutayamate/bin", as:command, use:"bin/*"
 | [listbin.sh](bin/listbin.sh) | Print list of commands located under `$HOME` |
 | [xml2json.py](bin/xml2json.py) | Convert XML to JSON |
 | [yaml2json.py](bin/yaml2json.py) | Convert YAML to JSON |
+| [yt-dlp.sh](bin/yt-dlp.sh) | Run [yt-dlp](https://github.com/yt-dlp/yt-dlp) |
 | [wttrin.sh](bin/wttrin.sh) | Get whether information with [wttr.in](https://wttr.in) |
 | [zip.sh](bin/zip.sh) | Compress specified directory as a ZIP archive |
