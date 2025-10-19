@@ -40,7 +40,6 @@ jobs:
           tags: |
             type=ref,event=branch,ref={{ is_default_branch }}
             type=raw,value=latest,enable={{is_default_branch}}
-            type=sha
 
       - name: Install Cosign
         uses: sigstore/cosign-installer@v4.0.0
