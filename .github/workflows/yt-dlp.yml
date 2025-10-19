@@ -41,8 +41,11 @@ jobs:
             type=ref,event=branch,ref={{ is_default_branch }}
             type=raw,value=latest,enable={{is_default_branch}}
 
+      - name: Install Cosign
+        uses: sigstore/cosign-installer@v4.0.0
+
       - name: Build and push Docker images
-        id: push
+        id: build-and-push
         uses: docker/build-push-action@v6
         with:
           context: ./containers/yt-dlp
@@ -53,9 +56,20 @@ jobs:
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
 
+      - name: Sign the images with GitHub OIDC Token
+        env:
+          DIGEST: ${{ steps.build-and-push.outputs.digest }}
+          TAGS: ${{ steps.meta.outputs.tags }}
+        run: |
+          images=""
+          for tag in ${TAGS}; do
+            images+="${tag}@${DIGEST} "
+          done
+          cosign sign --yes ${images}
+
       - name: Generate artifact attestation
         uses: actions/attest-build-provenance@v3
         with:
           subject-name: ghcr.io/${{ github.repository }}/yt-dlp
-          subject-digest: ${{ steps.push.outputs.digest }}
+          subject-digest: ${{ steps.build-and-push.outputs.digest }}
           push-to-registry: true
