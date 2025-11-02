@@ -85,7 +85,7 @@ jobs:
       - name: Show results in summary
         if: always()
         run: |
-          echo "## Vulnerability Scan (SARIF Summary)" >> $GITHUB_STEP_SUMMARY
+          echo "## Vulnerability Scan summary" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "| Rule | Severity | File | Message |" >> $GITHUB_STEP_SUMMARY
           echo "|------|-----------|------|----------|" >> $GITHUB_STEP_SUMMARY
@@ -93,3 +93,11 @@ jobs:
             .runs[].results[] |
             "| \(.ruleId) | \(.level) | \(.locations[0].physicalLocation.artifactLocation.uri // "-") | \(.message.text | gsub("\n"; " ")) |"
           ' ${{ steps.scan.outputs.sarif }} >> $GITHUB_STEP_SUMMARY
+
+      - name: Upload Artifacts
+        if: success() || failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: grype
+          path: |
+            ${{ steps.scan.outputs.sarif }}
