@@ -73,3 +73,19 @@ jobs:
           subject-name: ghcr.io/${{ github.repository }}/yt-dlp
           subject-digest: ${{ steps.build-and-push.outputs.digest }}
           push-to-registry: true
+
+      - name: Scan image for vulnerabilities
+        uses: anchore/scan-action@v3
+        with:
+          image: ghcr.io/${{ github.repository }}/yt-dlp@${{ steps.build-and-push.outputs.digest }}
+          fail-build: false
+          output-format: table
+          output-file: scan-results.txt
+
+      - name: Add scan summary
+        run: |
+          echo "## 🛡️ Vulnerability Scan Results" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
+          cat scan-results.txt >> $GITHUB_STEP_SUMMARY
+          echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
