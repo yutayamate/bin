@@ -74,7 +74,7 @@ jobs:
           subject-digest: ${{ steps.build-and-push.outputs.digest }}
           push-to-registry: true
 
-      - name: Scan image for vulnerabilities
+      - name: Scan the image for vulnerabilities
         id: scan
         uses: anchore/scan-action@v3
         with:
