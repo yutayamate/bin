@@ -75,17 +75,21 @@ jobs:
           push-to-registry: true
 
       - name: Scan image for vulnerabilities
+        id: scan
         uses: anchore/scan-action@v3
         with:
           image: ghcr.io/${{ github.repository }}/yt-dlp@${{ steps.build-and-push.outputs.digest }}
           fail-build: false
-          output-format: table
-          output-file: scan-results.txt
+          output-format: sarif
 
-      - name: Add scan summary
+      - name: Show results in summary
+        if: always()
         run: |
-          echo "## 🛡️ Vulnerability Scan Results" >> $GITHUB_STEP_SUMMARY
+          echo "## Vulnerability Scan (SARIF Summary)" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
-          echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
-          cat scan-results.txt >> $GITHUB_STEP_SUMMARY
-          echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
+          echo "| Rule | Severity | File | Message |" >> $GITHUB_STEP_SUMMARY
+          echo "|------|-----------|------|----------|" >> $GITHUB_STEP_SUMMARY
+          jq -r '
+            .runs[].results[] |
+            "| \(.ruleId) | \(.level) | \(.locations[0].physicalLocation.artifactLocation.uri // "-") | \(.message.text | gsub("\n"; " ")) |"
+          ' ${{ steps.scan.outputs.sarif }} >> $GITHUB_STEP_SUMMARY
