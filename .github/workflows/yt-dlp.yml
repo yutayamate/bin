@@ -85,7 +85,7 @@ jobs:
       - name: Publish job summary
         if: always()
         run: |
-          echo "## Vulnerability Scan summary" >> $GITHUB_STEP_SUMMARY
+          echo "## Vulnerability Scan (Grype) summary" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "| Rule | Severity | File | Message |" >> $GITHUB_STEP_SUMMARY
           echo "|------|-----------|------|----------|" >> $GITHUB_STEP_SUMMARY
