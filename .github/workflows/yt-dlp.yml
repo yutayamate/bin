@@ -82,7 +82,7 @@ jobs:
           fail-build: false
           output-format: sarif
 
-      - name: Show results in summary
+      - name: Publish job summary
         if: always()
         run: |
           echo "## Vulnerability Scan summary" >> $GITHUB_STEP_SUMMARY
@@ -94,7 +94,7 @@ jobs:
             "| \(.ruleId) | \(.level) | \(.locations[0].physicalLocation.artifactLocation.uri // "-") | \(.message.text | gsub("\n"; " ")) |"
           ' ${{ steps.scan.outputs.sarif }} >> $GITHUB_STEP_SUMMARY
 
-      - name: Upload Artifacts
+      - name: Upload artifacts
         if: success() || failure()
         uses: actions/upload-artifact@v4
         with:
