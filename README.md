@@ -36,6 +36,7 @@ apply = ["path"]
 | [httpserver.sh](bin/httpserver.sh) | Start a web server with Python `http.server` module |
 | [ipinfo.sh](bin/ipinfo.sh) | Get information about specified public IP address with [IPinfo.io](https://ipinfo.io) |
 | [jqrecurse.sh](bin/jqrecurse.sh) | Flatten nested JSON strings |
+| [kalilinux.sh](bin/kalilinux.sh) | Run [Kali Linux](https://hub.docker.com/r/kalilinux/kali-rolling) container |
 | [jqtsv.sh](bin/jqtsv.sh) | Convert JSON strings with tab-separated values |
 | [kill.sh](bin/kill.sh) | Terminate specified process(es) |
 | [lower.sh](bin/lower.sh) | Convert strings with lowercase letters |
