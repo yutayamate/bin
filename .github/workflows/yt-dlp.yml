@@ -3,7 +3,7 @@ name: ghcr.io/yutayamate/bin/yt-dlp
 on:
   push:
     branches:
-      - master
+      - main
     paths:
       - containers/yt-dlp/**
       - .github/workflows/yt-dlp.yml
