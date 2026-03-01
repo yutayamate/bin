@@ -31,6 +31,7 @@ apply = ["path"]
 | [findwordlist.sh](bin/findwordlist.sh) | Search Kali wordlist text files |
 | [gcloud-project.sh](bin/gcloud-project.sh) | Switch Google Cloud projects |
 | [gi.sh](bin/gi.sh) | Get `.gitignore` template with [gitignore.io](https://www.gitignore.io) |
+| [go-socks5-proxy.sh](bin/go-socks5-proxy.sh) | Launch [serjs/socks5-server](https://github.com/serjs/socks5-server) |
 | [grepemail.sh](bin/grepemail.sh) | Search and extract email address strings |
 | [grepurl.sh](bin/grepurl.sh) | Search and extract URL strings |
 | [hexdecode.sh](bin/hexdecode.sh) | Decode HEX encoded strings |
