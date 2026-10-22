@@ -29,7 +29,8 @@ apply = ["path"]
 | [compress.sh](bin/compress.sh) | Compress specified directory as a TAR+GZ archive |
 | [decodejwt.sh](bin/decodejwt.sh) | Decode JWT and print its header and payload |
 | [findwordlist.sh](bin/findwordlist.sh) | Search Kali wordlist text files |
-| [gi.sh](bin/gi.sh) | Get `.gitignore` template with [gitignore.io](https://www.gitignore.io) |
+| [gcloud-project.sh](bin/gcloud-project.sh) | Switch Google Cloud projects |
+| [go-socks5-proxy.sh](bin/go-socks5-proxy.sh) | Launch [serjs/socks5-server](https://github.com/serjs/socks5-server) |
 | [grepemail.sh](bin/grepemail.sh) | Search and extract email address strings |
 | [grepurl.sh](bin/grepurl.sh) | Search and extract URL strings |
 | [hexdecode.sh](bin/hexdecode.sh) | Decode HEX encoded strings |
